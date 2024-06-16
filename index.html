@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Aplicativo analisador JSON</title>
+</head>
+
+<body>
+    <textarea id="jsonInput" placeholder="Digite um código JSON válido aqui.." cols="30" rows="10"></textarea>
+    <div class="buttons">
+        <button onclick="parseAndDisplayJson()">Analisar e exibir JSON</button>
+        <input type="file" id="fileInput" accept=".json, .txt">
+    </div>
+    <div id="jsonViewer"></div>
+
+    <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>
